@@ -4,7 +4,7 @@ language: php
 branches:
   only:
   - master
-  - v1.6.5
+  - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
 
 php:
   - 7.1
