@@ -3,6 +3,7 @@ language: php
 
 branches:
   only:
+  - master
   - v1.6.5
 
 php:
